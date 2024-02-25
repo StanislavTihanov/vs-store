@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vip Shopping</title>
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/images/favicon.icon">
+</head>
+
+<body id="body">
+<div class="wrapper">
+    <header class="header lock-padding">
+      <div class="header__content _container">
+          <div class="header__body">
+              <div class="header__burger" id="hamb">
+                <span></span>
+              </div>
+            <div class="header__menu-wrapper">
+            <nav class="menu" id="menu">
+              <label class="menu__search">
+                <input type="text">
+                <img src="images/search.svg" alt="icon search">
+                <button class="menu__search-button">Найти</button>
+              </label>
+              <div class="menu__inner">
+                <ul class="menu__list">
+                  <li class="menu__list-item">
+                    <a class="menu__link active menu__link--mod" href="index.html">Главная</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link-mobile" href="#">Меню</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="women.html">Женское</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="men.html">Мужское</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="outlet.html">Аутлет</a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__link" href="buyers.html">Покупателям</a>
+                  </li>
+                </ul>
+                <div class="nav__block">
+                  <a href="account.html" class="nav__block-icon">
+                    <img src="images/user.svg" alt="icon user">
+                  </a>
+                  <a href="basket.html" class="nav__block-icon">
+                    <img src="images/shopping-bag.svg" alt="icon shopping-bag">
+                    <span></span>
+                  </a>
+                  <a href="favourites.html" class="nav__block-icon">
+                    <img src="images/heart.svg" alt="icon heart">
+                  </a>
+                </div>
+              </div>
+            </nav>
+            <div class="header__logo">
+              <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="197" height="20" viewBox="0 0 197 20" fill="none">
+                  <path d="M16.1007 0.930749L9.40763 10.9507L2.71944 0.930749H0.621094V19.295H2.64082V4.44438L9.33391 14.2531H9.43711L16.1253 4.41489V19.2901H18.1991V0.930749H16.1007ZM38.6862 3.39275C36.9368 1.54011 34.7009 0.616242 31.9686 0.616242C29.2412 0.616242 26.9905 1.54502 25.2214 3.40749C23.4572 5.26996 22.5727 7.50099 22.5727 10.1104C22.5727 12.7346 23.4474 14.9754 25.1968 16.8281C26.9463 18.6856 29.1822 19.6095 31.9145 19.6095C34.6468 19.6095 36.8926 18.6807 38.6568 16.8183C40.4259 14.9558 41.3055 12.7198 41.3055 10.1104C41.3055 7.48625 40.4357 5.2503 38.6862 3.39275ZM37.1235 15.5013C35.7672 16.9608 34.0522 17.693 31.9686 17.693C29.885 17.693 28.1601 16.9559 26.7841 15.4865C25.4131 14.0172 24.7251 12.2235 24.7251 10.1104C24.7251 7.97767 25.4032 6.184 26.7596 4.72449C28.111 3.26498 29.8309 2.53277 31.9145 2.53277C33.9981 2.53277 35.7181 3.26989 37.099 4.73431C38.47 6.20365 39.158 7.99732 39.158 10.1104C39.158 12.2432 38.4799 14.0417 37.1235 15.5013ZM59.198 0.930749V15.6438L47.63 0.930749H45.6889V19.295H47.7087V4.23307L59.5665 19.2901H61.2177V0.930749H59.198ZM65.0999 0.930749V2.84727H71.2672V19.295H73.3655V2.84236H79.5328V0.925835H65.0999V0.930749ZM115.367 15.0393C114.423 15.9288 113.49 16.5971 112.586 17.0345C111.676 17.4768 110.625 17.693 109.436 17.693C107.426 17.693 105.735 16.9608 104.369 15.5013C103.008 14.0417 102.325 12.2432 102.325 10.1104C102.325 7.95801 103.003 6.16434 104.359 4.70974C105.716 3.26006 107.406 2.53277 109.436 2.53277C111.519 2.53277 113.441 3.36818 115.205 5.04882L116.571 3.57949C115.539 2.60157 114.477 1.85953 113.396 1.35828C112.315 0.861951 111.003 0.611328 109.46 0.611328C106.806 0.611328 104.59 1.53028 102.826 3.37801C101.057 5.22082 100.177 7.46168 100.177 10.1055C100.177 12.7837 101.047 15.0344 102.796 16.8625C104.546 18.6906 106.738 19.5997 109.381 19.5997C110.974 19.5997 112.34 19.3392 113.475 18.8183C114.61 18.2876 115.696 17.5161 116.728 16.4841L115.367 15.0393ZM129.898 11.7861C131.402 11.506 132.606 10.9163 133.52 10.0023C134.424 9.09318 134.881 7.90395 134.881 6.43462C134.881 4.93088 134.409 3.70725 133.466 2.75882C132.242 1.53519 130.503 0.920921 128.242 0.920921H120.345V19.2852H122.419V2.84236H128.085C129.554 2.84236 130.704 3.16178 131.535 3.79571C132.365 4.43947 132.783 5.32402 132.783 6.45919C132.783 7.64842 132.34 8.58702 131.471 9.26518C130.596 9.94825 129.456 10.2873 128.06 10.2873H127.662V12.1498L132.989 19.2852H135.53L129.898 11.7861ZM139.5 0.930749V19.295H141.574V0.930749H139.5ZM158.086 11.0146C157.137 10.2038 155.619 9.56986 153.535 9.11284C151.594 8.69022 150.277 8.22337 149.589 7.69756C148.896 7.17174 148.552 6.45427 148.552 5.54515C148.552 4.67043 148.916 3.94805 149.629 3.37801C150.346 2.80796 151.29 2.52785 152.459 2.52785C154.371 2.52785 156.135 3.19127 157.757 4.52301L158.965 2.92099C157.093 1.41725 154.946 0.66047 152.508 0.66047C150.759 0.66047 149.319 1.13714 148.184 2.08066C147.044 3.01927 146.474 4.22324 146.474 5.67292C146.474 7.16191 146.96 8.30692 147.918 9.11284C148.877 9.91385 150.454 10.5527 152.641 11.0294C154.494 11.4127 155.756 11.8648 156.415 12.3906C157.083 12.9164 157.413 13.624 157.413 14.5184C157.413 15.4619 157.034 16.2286 156.282 16.8133C155.53 17.3981 154.543 17.6881 153.319 17.6881C152.081 17.6881 150.965 17.4768 149.973 17.059C148.99 16.6364 148.002 15.9828 147.024 15.0885L145.737 16.6119C147.928 18.5726 150.425 19.5456 153.24 19.5456C155.078 19.5456 156.582 19.0689 157.752 18.1205C158.926 17.1672 159.511 15.9091 159.511 14.3563C159.516 12.9459 159.039 11.8255 158.086 11.0146ZM162.032 0.930749V2.84727H168.199V19.295H170.298V2.84236H176.465V0.925835H162.032V0.930749ZM194.382 3.39275C192.632 1.54011 190.396 0.616242 187.664 0.616242C184.937 0.616242 182.686 1.54502 180.917 3.40749C179.153 5.26996 178.273 7.50099 178.273 10.1104C178.273 12.7346 179.143 14.9754 180.892 16.8281C182.642 18.6856 184.878 19.6095 187.61 19.6095C190.337 19.6095 192.588 18.6807 194.357 16.8183C196.121 14.9558 197.001 12.7198 197.001 10.1104C197.001 7.48625 196.126 5.2503 194.382 3.39275ZM192.819 15.5013C191.468 16.9608 189.748 17.693 187.664 17.693C185.581 17.693 183.856 16.9559 182.48 15.4865C181.104 14.0172 180.421 12.2235 180.421 10.1104C180.421 7.97767 181.099 6.184 182.455 4.72449C183.807 3.26498 185.527 2.53277 187.61 2.53277C189.694 2.53277 191.419 3.26989 192.795 4.73431C194.166 6.20365 194.854 7.99732 194.854 10.1104C194.849 12.2432 194.175 14.0417 192.819 15.5013Z" fill="white"/>
+                  <path d="M96.6833 0.925781H83.4102V2.84231H96.6833V0.925781Z" fill="white"/>
+                  <path d="M96.6833 9.14941H83.4102V11.0659H96.6833V9.14941Z" fill="white"/>
+                  <path d="M96.6833 17.376H83.4102V19.2925H96.6833V17.376Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="header__block">
+            <a href="#popup" class="header__block-search popup-link">
+              <svg class="header__block-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M17.5 17.5L24.5 24.5" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19.8333 11.6667C19.8333 16.177 16.177 19.8333 11.6667 19.8333C7.15635 19.8333 3.5 16.177 3.5 11.6667C3.5 7.15634 7.15635 3.5 11.6667 3.5C16.177 3.5 19.8333 7.15634 19.8333 11.6667Z" stroke="white"/>
+              </svg>
+            </a>
+            <a href="account.html" class="header__block-user">
+              <svg class="header__block-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M19.8327 9.33333C19.8327 12.555 17.221 15.1667 13.9993 15.1667C10.7777 15.1667 8.16602 12.555 8.16602 9.33333C8.16602 6.11168 10.7777 3.5 13.9993 3.5C17.221 3.5 19.8327 6.11168 19.8327 9.33333Z" stroke="white"/>
+                <path d="M3.5 24.5002C4.61683 20.9111 7.48998 19.8335 14 19.8335C20.51 19.8335 23.3831 20.9111 24.5 24.5002" stroke="white" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a href="favourites.html" class="header__block-heart">
+              <svg class="header__block-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28" fill="none">
+                <path d="M5.4927 15.1148L11.8149 22.5248C12.7104 23.5743 14.2896 23.5743 15.1851 22.5248L21.5073 15.1148C23.3893 12.9089 24.367 10.1348 22.953 7.48945C21.3193 4.43308 18.3257 3.8084 15.7242 5.86088C14.8297 6.56655 14.0956 7.3724 13.737 7.7905C13.6125 7.93579 13.3875 7.93579 13.263 7.7905C12.9044 7.3724 12.1702 6.56655 11.2758 5.86088C8.67434 3.8084 5.68063 4.43308 4.04694 7.48945C2.63295 10.1348 3.61065 12.9089 5.4927 15.1148Z" stroke="white" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="basket.html" class="header__block-bag">
+              <svg class="header__block-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28" fill="none">
+                <path d="M5.07286 12.1732C5.33602 10.2629 5.4676 9.30771 6.10202 8.73711C6.73645 8.1665 7.66684 8.1665 9.52764 8.1665H10.1248H16.8748H17.472C19.3328 8.1665 20.2632 8.1665 20.8976 8.73711C21.532 9.30771 21.6636 10.2629 21.9267 12.1732L22.8911 19.1732C23.2324 21.6515 23.4032 22.8908 22.7303 23.6953C22.0575 24.4998 20.8504 24.4998 18.4363 24.4998H17.9998H8.99981H8.56335C6.14922 24.4998 4.94216 24.4998 4.26931 23.6953C3.59647 22.8908 3.76718 21.6515 4.10858 19.1732L5.07286 12.1732Z" stroke="white" stroke-linejoin="round"/>
+                <path d="M10.125 12.8333V5.83333C10.125 4.54467 11.1324 3.5 12.375 3.5H14.625C15.8677 3.5 16.875 4.54467 16.875 5.83333V12.8333" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>3</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="popup" id="popup">
+      <a class="popup__close close-popup" href="#header"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <h2 class="popup__title">Поиск</h2>
+          <form action="" class="popup__form">
+            <label class="popup__label">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                <path d="M17.5 17.5L24.5 24.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M19.8333 11.6667C19.8333 16.177 16.177 19.8333 11.6667 19.8333C7.15635 19.8333 3.5 16.177 3.5 11.6667C3.5 7.15634 7.15635 3.5 11.6667 3.5C16.177 3.5 19.8333 7.15634 19.8333 11.6667Z" stroke="black"/>
+              </svg>
+              <input class="popup__input" type="search" placeholder="Поиск в магазине">
+              <button class="popup__button">Найти</button>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+<main class="main">
+
+  <section class="homepage">
+    <div class="homepage__content">
+      <div class="homepage__photo">
+        <img src="images/homepage-img1.jpg" alt="photo new collection">
+        <a href="new-collection.html">New collection</a>
+      </div>
+      <div class="homepage__photo-two">
+        <div class="homepage__women">
+          <img src="images/homepage-img2.jpg" alt="photo women">
+          <a href="women.html">женское</a>
+        </div>
+        <div class="homepage__men">
+          <img src="images/homepage-img3.jpg" alt="photo men">
+          <a href="men.html">мужское</a>
+        </div>
+      </div> 
+      <div class="homepage__photo">
+        <img src="images/homepage-img4.jpg" alt="photo outlet">
+        <a href="outlet.html">Аутлет</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bestsellers">
+    <div class="bestsellers__content _container">
+      <div class="sub-title">
+        <h2>бестселлеры</h2>
+      </div>
+      <div class="items">
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-img _ibg">
+            <img src="images/bestsellers-img.png" alt="bestsellers img">
+          </div>
+          <div class="item-title">
+            <a href="men-card.html">Сумка на плечо GG Marmont</a>
+          </div>
+          <div class="item-cost">
+            <p>70 000 РУБ.</p>
+          </div>
+          <div class="colors">
+            <button style="background-color: #D8760D;"></button>
+            <button style="background-color: #E5582C;"></button>
+            <button style="background-color: #3E5139;"></button>
+            <button style="background-color: #5D4429;"></button>
+          </div>
+          <div class="buttons">
+            <button class="buttons__btn">в корзину
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+            <button class="buttons__btn">в избранное
+              <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="brands">
+    <div class="brands__content _container">
+
+      <div class="brands__slider">
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/d-g-logo.png" alt="brands photo">
+          </a>
+        </div>
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/Valentino-logo.png" alt="brands photo">
+          </a>
+        </div>
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/celine-logo.png" alt="brands photo">
+          </a>
+        </div>
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/boss-logo.png" alt="brands photo">
+          </a>
+        </div>
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/barberry-logo.png" alt="brands photo">
+          </a>
+        </div>
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/Max-Mara-logo.png" alt="brands photo">
+          </a>
+        </div>
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/prada-logo.png" alt="brands photo">
+          </a>
+        </div>
+        <div class="brands__slider-item">
+          <a class="brands__slider-link" href="#">
+            <img src="images/guchchi-logo.png" alt="brands photo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="newsletter__content">
+      <div class="newsletter__body">
+        <div class="newsletter__form-wrapper">
+          <div class="newsletter__form">
+            <h3 class="newsletter__form-title">новостная рассылка</h3>
+            <form class="newsletter__form-box" action="#" method="post">
+              <input  type="email" name="email" placeholder="E-mail" required>
+              <button class="send-form" type="button"></button>
+            </form>
+            <p>Нажимая на кнопку, вы даете согласие на</p> 
+            <a href="personal-data.html">обработку своих персональных данных</a>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter__photo _ibg">
+        <img src="images/newsletter-photo.jpg" alt="newsletter photo">
+      </div>
+    </div>
+  </section>
+
+  <section class="viewed">
+    <div class="viewed__content _container">
+      <div class="sub-title">
+        <h2>недавно просмотренные</h2>
+      </div>
+      <div class="viewed__body">
+        <div class="viewed__items">
+          <div class="item">
+            <div class="item-img _ibg">
+              <img src="images/bestsellers-img.png" alt="bestsellers img">
+            </div>
+            <div class="item-title">
+              <a href="men-card.html">Сумка на плечо GG Marmont</a>
+            </div>
+            <div class="item-cost">
+              <p>70 000 РУБ.</p>
+            </div>
+              <div class="colors">
+                <button style="background-color: #D8760D;"></button>
+                <button style="background-color: #E5582C;"></button>
+                <button style="background-color: #3E5139;"></button>
+                <button style="background-color: #5D4429;"></button>
+              </div>
+            <div class="buttons">
+              <button class="buttons__btn">в корзину
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                  <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                  <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+              <button class="buttons__btn">в избранное
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                  <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-img _ibg">
+              <img src="images/bestsellers-img.png" alt="bestsellers img">
+            </div>
+            <div class="item-title">
+              <a href="men-card.html">Сумка на плечо GG Marmont</a>
+            </div>
+            <div class="item-cost">
+              <p>70 000 РУБ.</p>
+            </div>
+            <div class="colors">
+              <button style="background-color: #D8760D;"></button>
+              <button style="background-color: #E5582C;"></button>
+              <button style="background-color: #3E5139;"></button>
+              <button style="background-color: #5D4429;"></button>
+            </div>
+            <div class="buttons">
+              <button class="buttons__btn">в корзину
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                  <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                  <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+              <button class="buttons__btn">в избранное
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                  <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-img _ibg">
+              <img src="images/bestsellers-img.png" alt="bestsellers img">
+            </div>
+            <div class="item-title">
+              <a href="men-card.html">Сумка на плечо GG Marmont</a>
+            </div>
+            <div class="item-cost">
+              <p>70 000 РУБ.</p>
+            </div>
+            <div class="colors">
+              <button style="background-color: #D8760D;"></button>
+              <button style="background-color: #E5582C;"></button>
+              <button style="background-color: #3E5139;"></button>
+              <button style="background-color: #5D4429;"></button>
+            </div>
+            <div class="buttons">
+              <button class="buttons__btn">в корзину
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                  <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                  <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+              <button class="buttons__btn">в избранное
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                  <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-img _ibg">
+              <img src="images/bestsellers-img.png" alt="bestsellers img">
+            </div>
+            <div class="item-title">
+              <a href="men-card.html">Сумка на плечо GG Marmont</a>
+            </div>
+            <div class="item-cost">
+              <p>70 000 РУБ.</p>
+            </div>
+            <div class="colors">
+              <button style="background-color: #D8760D;"></button>
+              <button style="background-color: #E5582C;"></button>
+              <button style="background-color: #3E5139;"></button>
+              <button style="background-color: #5D4429;"></button>
+            </div>
+            <div class="buttons">
+              <button class="buttons__btn">в корзину
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="23" viewBox="0 0 21 23" fill="none">
+                  <path d="M2.35625 9.67368C2.61941 7.76336 2.75099 6.8082 3.38541 6.2376C4.01983 5.66699 4.95023 5.66699 6.81102 5.66699H7.4082H14.1582H14.7553C16.6162 5.66699 17.5466 5.66699 18.181 6.2376C18.8154 6.8082 18.947 7.76336 19.2101 9.67368L20.1745 16.6737C20.5158 19.152 20.6866 20.3913 20.0137 21.1958C19.3408 22.0003 18.1338 22.0003 15.7197 22.0003H15.2832H6.2832H5.84674C3.4326 22.0003 2.22555 22.0003 1.55269 21.1958C0.879855 20.3913 1.05056 19.152 1.39197 16.6737L2.35625 9.67368Z" stroke="#E84F1F" stroke-linejoin="round"></path>
+                  <path d="M7.40839 10.3333V3.33333C7.40839 2.04467 8.41574 1 9.65839 1H11.9084C13.1511 1 14.1584 2.04467 14.1584 3.33333V10.3333" stroke="#E84F1F" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+              <button class="buttons__btn">в избранное
+                <svg class="bestsellers-item__btn-icon" xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21" fill="none">
+                  <path d="M3.59426 11.4483L9.91642 18.8583C10.8119 19.9078 12.3912 19.9078 13.2867 18.8583L19.6089 11.4483C21.4909 9.24238 22.4686 6.46828 21.0546 3.82295C19.4209 0.766575 16.4272 0.141895 13.8258 2.19438C12.9313 2.90005 12.1971 3.7059 11.8386 4.124C11.7141 4.26928 11.4891 4.26928 11.3645 4.124C11.006 3.7059 10.2718 2.90005 9.37732 2.19438C6.77591 0.141895 3.78219 0.766575 2.1485 3.82295C0.73451 6.46828 1.71221 9.24238 3.59426 11.4483Z" stroke="#E84F1F" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <footer class="footer">
+      <div class="footer__content _container">
+        <div class="footer__body">
+          <div class="footer__block-mobile">
+            <div class="footer__block dropdown">
+              <h3 class="footer__block-title dropdown__button">Меню</h3>
+              <ul class="footer__list dropdown__list">
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="women.html">Женское</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="men.html">Мужское</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="outlet.html">Аутлет</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="buyers.html">Покупателям</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__block dropdown">
+              <h3 class="footer__block-title dropdown__button">Информация</h3>
+              <ul class="footer__list dropdown__list">
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="aboutus.html">О нас</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="stores.html">Наши магазины</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="certificates.html">Подарочные сертификаты</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="loyalty-program.html">Программа лояльности</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="personal-data.html">Согласие не обработку персональных данных</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="privacy-policy.html">Политика конфиденциальности</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="offer.html">Оферта</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__block dropdown">
+              <h3 class="footer__block-title dropdown__button">Помощь</h3>
+              <ul class="footer__list dropdown__list">
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="payment-delivery.html">Оплата и доставка</a>
+                </li>
+                <li class="footer__list-item dropdown__list-item">
+                  <a href="exchange-refund.html">Обмен и возврат</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__block footer__block--mod">
+            <a href="index.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="94" height="134" viewBox="0 0 94 134" fill="none">
+                <path d="M43.0528 113.79C43.4615 112.291 43.8703 110.929 44.1428 109.567C46.0502 102.482 48.0938 95.3973 50.0012 88.1764C51.7724 81.9092 53.4073 75.5058 55.1785 69.2386C56.2684 65.0151 57.4946 60.9278 58.5845 56.7042C60.3557 50.437 61.9906 44.0336 63.7618 37.7664C64.1705 36.2678 64.7155 34.7691 64.8517 33.2704C65.2604 30.2731 64.988 27.2757 63.6255 24.5509C62.3993 21.826 60.2195 20.1911 57.3583 19.3736C56.2684 19.1011 55.1785 18.8287 54.0885 18.5562C54.0885 18.5562 54.0885 18.5562 54.2248 18.5562C54.361 18.5562 54.4972 18.5562 54.6335 18.5562C62.5356 18.5562 70.4377 18.5562 78.476 18.5562C78.3398 18.6924 78.3398 18.6924 78.2035 18.6924C75.3424 19.1011 73.0263 20.5998 71.2551 22.9159C70.029 24.4146 69.2115 26.1858 68.394 27.9569C67.1679 30.818 66.3504 33.8154 65.5329 36.8127C64.443 40.7638 63.353 44.7148 62.3993 48.6659C60.6282 55.2056 58.857 61.7452 57.0859 68.2849C55.4509 74.5521 53.6798 80.683 52.0449 86.9502C50.2737 93.3536 48.6388 99.757 46.8676 106.16C45.7777 110.384 44.5515 114.471 43.4615 118.695C42.3716 122.782 41.2817 126.869 40.0555 131.093C39.783 131.91 39.3743 132.455 38.8293 133.273C38.693 132.864 38.5568 132.592 38.5568 132.319C37.4669 128.096 36.2407 124.008 35.1507 119.785C32.8346 111.338 30.5185 102.891 28.2023 94.3073C26.5674 88.1764 24.7962 81.9092 23.0251 75.7783C20.709 67.3312 18.2566 58.7479 15.9404 50.3008C14.1693 44.0336 12.5344 37.7664 10.7632 31.6355C10.2182 29.4556 9.40077 27.2757 8.58332 25.0958C6.9484 21.281 4.22354 18.9649 0 18.5562C0 18.5562 0 18.5562 0 18.4199C0.136243 18.4199 0.408729 18.4199 0.544972 18.4199C10.2182 18.4199 20.0277 18.4199 29.701 18.4199C29.701 18.4199 29.8372 18.4199 29.8372 18.5562C28.3386 18.8287 26.8399 19.1011 25.4775 19.9186C23.7063 20.7361 22.3439 21.9622 21.3902 23.7334C20.709 24.9596 20.4365 26.4583 20.4365 27.8207C20.5727 30.0006 21.2539 32.0442 21.7989 34.0879C23.7063 41.3088 25.6137 48.5296 27.5211 55.7505C28.611 59.9741 29.701 64.0614 30.7909 68.2849C32.4259 74.5521 34.0608 80.8193 35.6957 86.9502C37.3306 93.2174 39.1018 99.6208 40.7367 105.888C41.4179 108.34 41.9629 110.656 42.6441 113.109C42.9166 113.518 42.9166 113.654 43.0528 113.79Z" fill="#E84F1F"/>
+                <path d="M61.8558 35.7217C61.0383 38.8553 60.0846 41.9889 59.2672 45.1225C59.1309 45.1225 58.9947 45.1225 58.8585 44.9863C55.3161 42.8064 51.7738 40.7627 48.6402 38.0379C46.4603 36.1305 44.4167 34.0868 42.7818 31.6344C40.1932 27.5471 39.1032 23.0511 39.7844 18.1464C40.3294 13.5141 42.2368 9.69929 45.6429 6.56569C48.3677 3.97707 51.5013 2.34216 55.0437 1.25221C59.4034 -0.110219 63.8995 -0.246462 68.3955 0.29851C73.0277 0.979726 77.3875 2.34216 81.4748 4.52205C82.8372 5.33951 84.1997 6.29321 85.5621 7.11067C85.8346 7.24691 85.9708 7.5194 85.9708 7.79188C85.9708 7.92813 85.9708 7.92812 85.9708 8.06437C85.9708 15.2853 85.9708 22.5061 85.9708 29.5908C85.9708 29.727 85.9708 29.727 85.8346 29.8633C85.6983 29.3183 85.6983 28.7733 85.5621 28.3646C85.1534 24.1411 84.1997 20.0538 82.5648 16.1027C81.3386 13.1054 79.7037 10.2443 77.3875 7.79188C74.6627 4.52205 70.9841 2.61464 66.4881 1.93343C63.4907 1.5247 60.6296 1.5247 57.7685 2.20591C55.5886 2.75089 53.545 3.70459 51.7738 5.20326C49.8664 6.97442 48.504 9.15431 47.8228 11.7429C46.8691 15.694 47.1416 19.645 48.9127 23.3236C50.1389 25.776 51.9101 27.8196 53.8175 29.727C55.7249 31.4982 57.9048 33.1331 60.2209 34.4955C60.7659 35.0405 61.3108 35.313 61.8558 35.7217Z" fill="white"/>
+                <path d="M65.1265 47.8461C66.0802 44.7125 66.8976 41.7151 67.8514 38.4453C68.1238 38.5816 68.2601 38.7178 68.5326 38.7178C70.9849 40.2165 73.3011 41.5789 75.7535 43.0776C78.7508 45.1212 81.8844 47.0286 84.7455 49.3448C86.9254 51.2522 88.969 53.1596 90.4677 55.6119C91.9664 57.7918 93.0563 60.2442 93.6013 62.8328C94.2825 66.5114 94.1463 70.0537 92.7838 73.596C91.6939 76.4571 89.9227 78.9095 87.7428 80.9532C85.2905 83.2693 82.4294 84.6317 79.2958 85.7217C76.0259 86.8116 72.6199 87.3566 69.2138 87.4928C65.6715 87.6291 62.1291 87.2203 58.7231 86.6754C57.3606 86.4029 55.862 86.1304 54.3633 85.7217C54.772 84.3592 55.1807 82.9968 55.5895 81.6344C55.7257 81.7706 55.9982 81.7706 56.1344 81.9069C59.268 84.3592 62.9466 85.4492 66.8976 85.7217C69.895 85.9942 72.8923 85.7217 75.7535 85.0405C78.0696 84.3592 80.2495 83.4055 82.0206 81.7706C84.2005 79.727 85.6992 77.2746 86.2442 74.4135C86.7891 71.5524 86.6529 68.6913 85.6992 65.9664C84.8817 63.514 83.5193 61.1979 81.6119 59.2905C79.2958 56.8381 76.7072 54.6582 73.8461 52.8871C72.3474 51.9334 70.8487 50.9797 69.4863 50.1622C67.8514 49.481 66.6252 48.6635 65.1265 47.8461Z" fill="white"/>
+                <path d="M40.6011 50.7085C40.7373 52.2072 40.8736 53.5696 41.0098 55.0683C41.5548 59.7006 42.5085 64.1966 44.2797 68.4201C45.5058 71.2812 47.0045 74.0061 48.9119 76.4585C49.4569 77.1397 50.1381 77.8209 50.6831 78.5021C50.8193 78.7746 51.0918 78.9108 50.9556 79.1833C50.4106 80.8182 50.0019 82.4532 49.4569 84.0881C49.4569 84.0881 49.4569 84.2243 49.3206 84.2243C48.5032 83.9518 47.6857 83.8156 46.8683 83.4069C44.8246 82.5894 42.9172 81.6357 40.8736 80.682C40.6011 80.5457 40.4648 80.4095 40.4648 80.0008C40.4648 79.8645 40.4648 79.7283 40.4648 79.592C40.4648 70.3275 40.4648 60.9267 40.4648 51.6622C40.4648 51.2535 40.4648 50.8448 40.4648 50.5723C40.4648 50.7085 40.6011 50.7085 40.6011 50.7085Z" fill="white"/>
+              </svg>
+            </a>
+            <div class="footer__logo-link">
+              <a href="index.html">vip shopping</a>
+            </div>
+          </div>
+          <div class="footer__block footer__block--none">
+            <h3 class="footer__block-title">Меню</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="women.html">Женское</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="men.html">Мужское</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="outlet.html">Аутлет</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="buyers.html">Покупателям</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__block footer__block--none">
+            <h3 class="footer__block-title">Информация</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="aboutus.html">О нас</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="stores.html">Наши магазины</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="certificates.html">Подарочные сертификаты</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="loyalty-program.html">Программа лояльности</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="personal-data.html">Согласие не обработку персональных данных</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="privacy-policy.html">Политика конфиденциальности</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="offer.html">Оферта</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__block footer__block--none">
+            <h3 class="footer__block-title">Помощь</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="payment-delivery.html">Оплата и доставка</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="exchange-refund.html">Обмен и возврат</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__block footer__block--contacts">
+            <h3 class="footer__block-title">Контакты</h3>
+            <div class="footer__box">
+              <a href="tel:+79000000000">8 (000) 000-00-00</a>
+              <a href="mailto:gkomforta777@test.ru">VS@mail.ru</a>
+            </div>
+            <h3 class="footer__block-title">Адрес магазина</h3>
+            <div class="footer__address">
+              <address>ул. Охотный ряд 2, Москва </address>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  </div>
+</body>
+
+</html>
